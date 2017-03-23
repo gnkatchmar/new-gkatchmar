@@ -1,13 +1,17 @@
 import React from 'react';
-import './App.css';
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Portfolio from './Portfolio';
 
-const App = () => {
-  return (
-    <div className="App">
-      <Portfolio />
-    </div>
-  );
-};
+const App = () => (
+  <MuiThemeProvider>
+    <Portfolio />
+  </MuiThemeProvider>
+);
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
 
 export default App;
