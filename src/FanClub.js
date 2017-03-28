@@ -35,11 +35,11 @@ export default class FanClub extends React.Component {
         <CardMedia
           expandable={true}
         >
-           <img src={require('./images/401Final.jpg')} alt=''/>
+           <img src={require('./images/401MidTerm.jpg')} alt=''/>
         </CardMedia>
-        <CardTitle title="Code Fellows 401 midterm project focusing on the backend and using the Spotify API with OAuth to create a social app for Spotify users." subtitle="MongoDB/Mongoose, Express, Angular 1.5, Node, Angular-Material, Angular-UI-Router, Webpack, Mocha/Chai/Karma/Jasmine" expandable={true} />
+        <CardTitle title="Code Fellows 401 midterm project focusing on the backend and using the Spotify API with OAuth to create a social app for Spotify users." subtitle="MongoDB/Mongoose, Express, Node, Mocha/Chai" expandable={true} />
         <CardText expandable={true}>
-          <a href="https://github.com/401-Final" target="_blank">Project Link</a>
+          <a href="https://github.com/pdx-fanclub/fanclub-app" target="_blank">Project Link</a>
         </CardText>
         <CardActions>
           <FlatButton label="Expand" onTouchTap={this.handleExpand} />

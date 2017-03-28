@@ -7,7 +7,6 @@ import FanClub from './FanClub';
 const App = () => (
   <MuiThemeProvider>
     <div>
-      <h1>Portfolio</h1>
       <BigToDo />
       <FanClub />
     </div>
