@@ -1,12 +1,8 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 
-// Needed for onTouchTap
-injectTapEventPlugin();
-
-export default class BigToDo extends React.Component {
+export default class Brunch extends React.Component {
 
   constructor(props) {
     super(props);
@@ -31,19 +27,19 @@ export default class BigToDo extends React.Component {
     return (
       <Card expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
         <CardHeader
-          title="The BigToDo"
-          subtitle="January 2017"
+          title="Portland Weekend Brunch Finder"
+          subtitle="August 2016"
           actAsExpander={true}
           showExpandableButton={true}
         />
         <CardMedia
           expandable={true}
         >
-           <img src={require('./images/401Final.jpg')} alt=''/>
+           <img src={require('./images/201Final.jpg')} alt=''/>
         </CardMedia>
-        <CardTitle title="Code Fellows 401 final project using a full MEAN stack to create a streamlined, universal “to do” app." subtitle="Software used beyond HTML/CSS/JavaScript: MongoDB/Mongoose, Express, Angular 1.5, Node, Angular-Material, Angular-UI-Router, Webpack, Mocha/Chai/Karma/Jasmine." expandable={true} />
+        <CardTitle title="Code Fellows 201 final project using geolocation, Google Places and Maps APIs to create a brunch finding app." subtitle="Software used beyond HTML/CSS/JavaScript: none." expandable={true} />
         <CardText expandable={true}>
-          <a href="https://github.com/401-Final" target="_blank">Project Link</a>
+          <a href="https://github.com/gnkatchmar/Code201Final" target="_blank">Project Link</a>
         </CardText>
         <CardActions>
           <FlatButton label="Expand" onTouchTap={this.handleExpand} />

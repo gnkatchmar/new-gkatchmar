@@ -37,7 +37,7 @@ export default class FanClub extends React.Component {
         >
            <img src={require('./images/401MidTerm.jpg')} alt=''/>
         </CardMedia>
-        <CardTitle title="Code Fellows 401 midterm project focusing on the backend and using the Spotify API with OAuth to create a social app for Spotify users." subtitle="MongoDB/Mongoose, Express, Node, Mocha/Chai" expandable={true} />
+        <CardTitle title="Code Fellows 401 midterm project focusing on the backend and using the Spotify API with OAuth to create a social app for Spotify users." subtitle="Software used beyond HTML/CSS/JavaScript: MongoDB/Mongoose, Express, Node, Mocha/Chai, Bootstrap, Handlebars, jQuery." expandable={true} />
         <CardText expandable={true}>
           <a href="https://github.com/pdx-fanclub/fanclub-app" target="_blank">Project Link</a>
         </CardText>
