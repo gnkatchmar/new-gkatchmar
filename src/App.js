@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Portfolio from './Portfolio';
+import BigToDo from './BigToDo';
+import FanClub from './FanClub';
 
 const App = () => (
   <MuiThemeProvider>
-    <Portfolio />
+    <div>
+      <h1>Portfolio</h1>
+      <BigToDo />
+      <FanClub />
+    </div>
   </MuiThemeProvider>
 );
 
