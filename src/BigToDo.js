@@ -35,9 +35,6 @@ export default class BigToDo extends React.Component {
           avatar={require('./images/401FinalAvatar.jpg')            }
           actAsExpander={true}
           showExpandableButton={true}
-          style={{
-            height: '500%'
-          }}
         />
         <CardMedia
           expandable={true}
