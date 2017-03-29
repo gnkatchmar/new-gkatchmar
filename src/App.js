@@ -9,6 +9,7 @@ import Brunch from './Brunch';
 const App = () => (
   <MuiThemeProvider>
     <div>
+      <h1> Project Portfolio </h1>
       <BigToDo />
       <FanClub />
       <FoodTruck />
