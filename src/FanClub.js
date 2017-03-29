@@ -1,6 +1,5 @@
 import React from 'react';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import {Card, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 
 export default class FanClub extends React.Component {
 
@@ -29,6 +28,7 @@ export default class FanClub extends React.Component {
         <CardHeader
           title="Spotify Fan Club"
           subtitle="November 2016"
+          avatar={require('./images/401MidTermAvatar.jpg')}  
           actAsExpander={true}
           showExpandableButton={true}
         />
@@ -41,10 +41,6 @@ export default class FanClub extends React.Component {
         <CardText expandable={true}>
           <a href="https://github.com/pdx-fanclub/fanclub-app" target="_blank">Project Link</a>
         </CardText>
-        <CardActions>
-          <FlatButton label="Expand" onTouchTap={this.handleExpand} />
-          <FlatButton label="Reduce" onTouchTap={this.handleReduce} />
-        </CardActions>
       </Card>
     );
   }
