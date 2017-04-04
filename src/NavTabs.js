@@ -18,9 +18,9 @@ const NavTabs = () => (
   <Tabs>
     <Tab label="Home" >
       <div>
-        <h2 style={styles.headline}>Home</h2>
+        <h2 style={styles.headline}>Gregory N. Katchmar</h2>
         <p>
-          Under Construction
+          Website under construction using React, Material-UI, and React-Router.
         </p>
         <p>
 
@@ -29,7 +29,7 @@ const NavTabs = () => (
     </Tab>
     <Tab label="Portfolio" >
       <div>
-        <h2 style={styles.headline}>Portfolio</h2>
+        <h2 style={styles.headline}>Projects</h2>
         <p>
       <BigToDo />
       <FanClub />
