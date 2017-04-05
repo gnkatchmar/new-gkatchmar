@@ -4,6 +4,7 @@ import BigToDo from './BigToDo';
 import FanClub from './FanClub';
 import FoodTruck from './FoodTruck';
 import Brunch from './Brunch';
+import Home from './Home';
 
 const styles = {
   headline: {
@@ -19,23 +20,16 @@ const NavTabs = () => (
     <Tab label="Home" >
       <div>
         <h2 style={styles.headline}>Gregory N. Katchmar</h2>
-        <p>
-          Website under construction using React, Material-UI, and React-Router.
-        </p>
-        <p>
-
-        </p>
+        <Home />
       </div>
     </Tab>
     <Tab label="Portfolio" >
       <div>
         <h2 style={styles.headline}>Projects</h2>
-        <p>
-      <BigToDo />
-      <FanClub />
-      <FoodTruck />
-      <Brunch />
-        </p>
+        <BigToDo />
+        <FanClub />
+        <FoodTruck />
+        <Brunch />
       </div>
     </Tab>
   </Tabs>
