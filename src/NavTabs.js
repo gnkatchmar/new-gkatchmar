@@ -1,9 +1,6 @@
 import React from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
-import BigToDo from './BigToDo';
-import FanClub from './FanClub';
-import FoodTruck from './FoodTruck';
-import Brunch from './Brunch';
+import Portfolio from './Portfolio';
 import Home from './Home';
 
 const styles = {
@@ -26,10 +23,7 @@ const NavTabs = () => (
     <Tab label="Portfolio" >
       <div>
         <h2 style={styles.headline}>Projects</h2>
-        <BigToDo />
-        <FanClub />
-        <FoodTruck />
-        <Brunch />
+        <Portfolio />
       </div>
     </Tab>
   </Tabs>

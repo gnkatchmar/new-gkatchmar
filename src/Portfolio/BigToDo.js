@@ -32,7 +32,7 @@ export default class BigToDo extends React.Component {
         <CardHeader
           title="The BigToDo"
           subtitle="January 2017"
-          avatar={require('./images/401FinalAvatar.jpg')            }
+          avatar={require('./images/401FinalAvatar.jpg')}
           actAsExpander={true}
           showExpandableButton={true}
         />
