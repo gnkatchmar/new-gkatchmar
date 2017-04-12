@@ -1,8 +1,8 @@
 import React from 'react';
-import BigToDo from './Portfolio/BigToDo';
-import FanClub from './Portfolio/FanClub';
-import FoodTruck from './Portfolio/FoodTruck';
-import Brunch from './Portfolio/Brunch';
+import BigToDo from './Projects/BigToDo';
+import FanClub from './Projects/FanClub';
+import FoodTruck from './Projects/FoodTruck';
+import Brunch from './Projects/Brunch';
 
 const Portfolio = () => (
     <div>

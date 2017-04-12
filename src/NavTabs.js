@@ -2,6 +2,7 @@ import React from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import Portfolio from './Portfolio';
 import Home from './Home';
+import Dining from './Dining';
 
 const styles = {
   headline: {
@@ -24,6 +25,12 @@ const NavTabs = () => (
       <div>
         <h2 style={styles.headline}>Projects</h2>
         <Portfolio />
+      </div>
+    </Tab>
+    <Tab label="Dining Guide" >
+      <div>
+        <h2 style={styles.headline}>Dining Guide</h2>
+        <Dining />
       </div>
     </Tab>
   </Tabs>
