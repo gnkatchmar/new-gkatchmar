@@ -3,6 +3,7 @@ import {Tabs, Tab} from 'material-ui/Tabs';
 import Portfolio from './Portfolio';
 import Home from './Home';
 import Dining from './Dining';
+import Cocktail from './Cocktail'
 
 const styles = {
   headline: {
@@ -29,8 +30,12 @@ const NavTabs = () => (
     </Tab>
     <Tab label="Dining Guide" >
       <div>
-        <h2 style={styles.headline}>Dining Guide</h2>
         <Dining />
+      </div>
+    </Tab>
+    <Tab label="Cocktail Guides" >
+      <div>
+        <Cocktail />
       </div>
     </Tab>
   </Tabs>
