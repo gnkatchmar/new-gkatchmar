@@ -16,7 +16,7 @@ const styles = {
 };
 
 const NavTabs = () => (
-  <Tabs>
+  <Tabs tabType="scrollable-buttons">
     <Tab label="Home" >
       <div>
         <h2 style={styles.headline}>Gregory N. Katchmar</h2>
