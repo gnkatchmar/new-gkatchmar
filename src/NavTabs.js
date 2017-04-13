@@ -1,5 +1,6 @@
 import React from 'react';
-import {Tabs, Tab} from 'material-ui/Tabs';
+// import {Tabs, Tab} from 'material-ui/Tabs';
+import { Tabs, Tab } from 'material-ui-scrollable-tabs/Tabs';
 import Portfolio from './Portfolio';
 import Home from './Home';
 import Dining from './Dining';
