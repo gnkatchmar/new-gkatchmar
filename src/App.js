@@ -11,15 +11,6 @@ import Home from "./Home";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail"
 
-const styles = {
-  headline: {
-    fontSize: 24,
-    paddingTop: 16,
-    marginBottom: 12,
-    fontWeight: 400,
-  },
-};
-
 const App = () => (
     /*<Router>
     <Route exact path="/" component={Home}/>
@@ -32,15 +23,15 @@ const App = () => (
        <Tabs tabType="scrollable-buttons">
           <Tab label="Home" >
             <div>
-              <h2 style={styles.headline}>Gregory N. Katchmar</h2>
+              <h2>Gregory N. Katchmar</h2>
               <h3>Full-stack JavaScript Developer</h3>
-              <h4>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, webpack, testing (Mocha, Chai, Karma, Protrator, Jest)</h4>
+              <h4>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, webpack, testing (Mocha, Chai, Karma, Jest)</h4>
               <Home />
             </div>
           </Tab>
           <Tab label="Portfolio" >
             <div>
-              <h2 style={styles.headline}>Projects</h2>
+              <h2>Projects</h2>
               <Portfolio />
             </div>
           </Tab>

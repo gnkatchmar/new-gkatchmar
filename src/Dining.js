@@ -1,5 +1,4 @@
 import React from 'react';
-import './Dining.css';
 
 const divStyle = {
   margin: '0px',

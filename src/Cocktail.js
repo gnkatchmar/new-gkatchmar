@@ -1,5 +1,4 @@
 import React from 'react';
-import './Cocktail.css';
 
 const Cocktail = () => (
   <div>
