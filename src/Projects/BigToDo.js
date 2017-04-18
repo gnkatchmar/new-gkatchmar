@@ -1,9 +1,5 @@
 import React from 'react';
 import {Card, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-
-// Needed for onTouchTap
-injectTapEventPlugin();
 
 export default class BigToDo extends React.Component {
 
