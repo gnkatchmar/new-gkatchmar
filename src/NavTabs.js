@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio";
 import Home from "./Home";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
+import Restaurants from "./Restaurants";
 
 const NavTabs = () => (
   <Router>
@@ -38,6 +39,12 @@ const NavTabs = () => (
           <div>
             <Route path="/cocktail" component={Cocktail}/>
             <Cocktail />
+          </div>
+        </Tab>
+        <Tab label="Restaurant Reviews" >
+          <div>
+            <Route path="/restaurants" component={Restaurants}/>
+            <Restaurants />
           </div>
         </Tab>
     </Tabs>           
