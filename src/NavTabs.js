@@ -4,8 +4,9 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import Portfolio from "./Portfolio";
 import Home from "./Home";
+import Portfolio from "./Portfolio";
+import About from "./About";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
@@ -27,6 +28,13 @@ const NavTabs = () => (
             <h2>Projects</h2>
             <Route path="/portfolio" component={Portfolio}/>
             <Portfolio />
+          </div>
+        </Tab>
+      <Tab label="About">
+          <div>
+            <h2>Experiences</h2>
+            <Route path="/portfolio" component={About}/>
+            <About />
           </div>
         </Tab>
         <Tab label="Dining Guide" >
