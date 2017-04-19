@@ -32,7 +32,7 @@ const NavTabs = () => (
         </Tab>
       <Tab label="About">
           <div>
-            <h2>Experiences</h2>
+            <h2>Work Experience</h2>
             <Route path="/portfolio" component={About}/>
             <About />
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, CardHeader, CardTitle} from "material-ui/Card";
 
-export default class Stoel extends React.Component {
+export default class Freelance extends React.Component {
 
   constructor(props) {
     super(props);
@@ -26,13 +26,13 @@ export default class Stoel extends React.Component {
     return (
       <Card expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
         <CardHeader
-          title="Stoel Rives LLP"
-          subtitle="1999-2012"
-          avatar={require("./images/stoel.png")}
+          title="Freelance Administrative Contractor"
+          subtitle="1997-1999"
+          avatar={require("./images/GK.png")}
           actAsExpander={true}
           showExpandableButton={true}
         />
-        <CardTitle title="IPC Software Specialist" subtitle="Used Microsoft Word, Microsoft Excel, VBA for Word & Excel, Adiministrative-Level Legal MacPac, Microsoft Visio, Adobe Acrobat, Microsoft Access, Microsoft PowerPoint, InterAction, Workshare Compare, iManage, Best Authority, ASAP Utilities for Excel, Irfanview, and other software." expandable={true} />
+        <CardTitle title="Various Temporary Assignments" subtitle="Clients included The Standard, Metro & Gideon Forensic Investigation." expandable={true} />
       </Card>
     );
   }
