@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const divStyle = {
-  margin: '0px',
-  padding: '0px',
-  overflow: 'hidden'
+  margin: "0px",
+  padding: "0px",
+  overflow: "hidden"
 };
 
 function Dining() {

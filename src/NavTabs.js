@@ -3,10 +3,9 @@ import { Tabs, Tab } from "material-ui-scrollable-tabs/Tabs";
 import {
   BrowserRouter as Router,
   Route
-} from 'react-router-dom';
+} from "react-router-dom";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
-import About from "./About";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
@@ -17,9 +16,11 @@ const NavTabs = () => (
       <Tabs tabType="scrollable-buttons">
         <Tab label="Home" >
           <div>
-           <h2>Gregory N. Katchmar</h2>
-            <h3>Full-stack JavaScript Developer</h3>
-            <h4>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, webpack, testing (Mocha, Chai, Karma, Jest)</h4>
+           <h1>Gregory N. Katchmar</h1>
+            <h2>Full-stack JavaScript Developer</h2>
+            <h3>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB (with Mongoose and Robomongo), Express.js, SQL, Webpack, testing&nbsp;(Mocha,&nbsp;Chai, Karma, Protractor,&nbsp;Jest)</h3>
+            <hr></hr>
+            <h4>More information at:</h4>
             <Route exact path="/" component={Home}/>
           </div>
         </Tab>
@@ -30,14 +31,7 @@ const NavTabs = () => (
             <Portfolio />
           </div>
         </Tab>
-      <Tab label="About">
-          <div>
-            <h2>Work Experience</h2>
-            <Route path="/portfolio" component={About}/>
-            <About />
-          </div>
-        </Tab>
-        <Tab label="Dining Guide" >
+      <Tab label="Dining Guide" >
           <div>
             <Route path="/dining" component={Dining}/>
             <Dining />
@@ -49,7 +43,7 @@ const NavTabs = () => (
             <Cocktail />
           </div>
         </Tab>
-        <Tab label="Restaurant Reviews" >
+        <Tab label="Restaurant Ratings" >
           <div>
             <Route path="/restaurants" component={Restaurants}/>
             <Restaurants />
