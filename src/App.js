@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavTabs from "./NavTabs";
 
 const App = () => (

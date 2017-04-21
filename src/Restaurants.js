@@ -4,14 +4,13 @@ const Restaurants = () => (
   <div>
     <h2>Portland&nbsp;(mostly) restaurants in order, based on quality, value, service, and ambience.</h2>
 
-      <p><del>closed</del></p>
-      <p>*-especially loud</p>
+      <h4><del>closed</del><br></br>*-especially loud</h4>
 
     <h3>Lunch/Dinner</h3>
 
       <p><b>5 stars</b>: Simpatica&nbsp;(twice)*, 3 Doors Down Café (twice), Laurelhurst Market&nbsp;(thrice)</p>
 
-      <p><b>4½ stars</b>: Horse Brass Pub&nbsp;(eight visits), Bollywood Theater&nbsp;(four visits), ClarkLewis&nbsp;(two visits), Storrs Smokehouse&nbsp;(Newberg)&nbsp;(twice), <del>Esparza’s (dozens of visits)</del>, Cafe Castagna, <del>Vindalho</del>, Apizza Scholls, <del>Fado Portuguese Kitchen &&nbsp;Bar&nbsp;(twice)</del>, Raven &&nbsp;Rose, My&nbsp;Brother’s Crawfish&nbsp;(twice)</p>
+      <p><b>4½ stars</b>: Horse Brass Pub&nbsp;(nine visits), Bollywood Theater&nbsp;(four visits), ClarkLewis&nbsp;(two visits), Storrs Smokehouse&nbsp;(Newberg)&nbsp;(twice), <del>Esparza’s (dozens of visits)</del>, Cafe Castagna, <del>Vindalho</del>, Apizza Scholls, <del>Fado Portuguese Kitchen &&nbsp;Bar&nbsp;(twice)</del>, Raven &&nbsp;Rose, My&nbsp;Brother’s Crawfish&nbsp;(twice)</p>
 
       <p><b>4 stars</b>: Pix/Bar Vivant&nbsp;(twice), Foster Burger, Stammtisch, Imperial, Cibo&nbsp;(seven visits), Riyadh's (only have had home delivery), Tacos Chavez Express 2 (only have had home delivery), Ha &&nbsp;Vl (two visits), Pok Pok, <del>Vincentes</del>, Accanto, Redwood, Old Salt Marketplace, Kachka*, Tamale Boy&nbsp;(twice), Lardo&nbsp;(twice), Taqueria Portland (twice), Sayler's Old Country Kitchen&nbsp;(four times), Church, Red Star Tavern, Karam, <del>Skyline Burgers&nbsp;(Broadway)</del>, Grain and Gristle&nbsp;(twice), Pho Corner, Chez Machin&nbsp;(twice), Xico, <del>2nd Story&nbsp;(twice)</del>, Woodsman Tavern, <del>Sen Yai</del>, <del>Pho Van&nbsp;(Hawthorne)</del>, Oaks Bottom Public&nbsp;House, Gyro House Mediterranean Grill (Beaverton)</p>
 
