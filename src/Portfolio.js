@@ -7,6 +7,7 @@ import Brunch from "./Projects/Brunch";
 
 const Portfolio = () => (
     <div>
+      <h2>Projects</h2>
       <GKatchmar />
       <BigToDo />
       <FanClub />

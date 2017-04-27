@@ -9,14 +9,6 @@ import Restaurants from "./Restaurants";
 
 const history = createHistory();
 
-
-history.listen((location, action) => {
-  console.log(`The current URL is ${location.pathname}${location.search}${location.hash}`)
-  console.log(`The last navigation action was ${action}`)
-})
-
-
-
 function handleActive(tab) {
   history.push(tab.props["data-route"]);
 }
@@ -31,12 +23,7 @@ export default class NavTabs extends React.Component {
           onActive={handleActive}
         >
         <div>
-          <h1>Gregory N. Katchmar</h1>
-          <h2>Full-stack JavaScript Developer</h2>
-          <h3>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, Webpack, testing&nbsp;(Mocha,&nbsp;Chai, Karma, Protractor,&nbsp;Jest)</h3>
-          <hr></hr>
-          <h4>More information at:</h4>
-          <Home />
+           <Home />
         </div>
         </Tab>
         <Tab
@@ -45,7 +32,6 @@ export default class NavTabs extends React.Component {
             onActive={handleActive}
           >
           <div>
-            <h2>Projects</h2>
             <Portfolio />
           </div>
         </Tab>

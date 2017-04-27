@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavTabs from "./NavTabs";
-// import NavbarUi from "./NavbarUi";
 
 const App = () => (
   <MuiThemeProvider>
     <div>
-       <NavTabs />
+      <NavTabs />
     </div>
   </MuiThemeProvider>
 );

@@ -9,6 +9,11 @@ const styles = {
 
 const Home = () => (
   <div className="buttons">
+      <h1>Gregory N. Katchmar</h1>
+          <h2>Full-stack JavaScript Developer</h2>
+          <h3>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, Webpack, testing&nbsp;(Mocha,&nbsp;Chai, Karma, Protractor,&nbsp;Jest)</h3>
+          <hr></hr>
+          <h4>More information at:</h4>
     <RaisedButton
       href="https://www.linkedin.com/in/gregory-katchmar-3a48275a"
       target="_blank"
@@ -23,6 +28,8 @@ const Home = () => (
       primary={true}
       style={styles.button}
     />
+    <hr></hr>
+    <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
   </div>
 );
 
