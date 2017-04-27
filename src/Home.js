@@ -1,8 +1,5 @@
 import React from "react";
 import RaisedButton from "material-ui/RaisedButton";
-import createHistory from 'history/createBrowserHistory';
-
-createHistory().push("/");
 
 const styles = {
   button: {
