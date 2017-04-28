@@ -29,6 +29,7 @@ const Home = () => (
       style={styles.button}
     />
     <hr></hr>
+    <h4>Contact me at:</h4>
     <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
   </div>
 );
