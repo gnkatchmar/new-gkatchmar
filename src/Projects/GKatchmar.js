@@ -31,12 +31,12 @@ export default class GKatchmar extends React.Component {
       <Card expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
         <CardHeader
           title="gkatchmar.com"
-          subtitle="In Progress"
+          subtitle="May 2017"
           avatar={require("./images/GK.png")}
           actAsExpander={true}
           showExpandableButton={true}
         />
-        <CardTitle title="Personal website" subtitle="Software used beyond HTML/CSS/JavaScript: React, Material-UI." expandable={true} />
+        <CardTitle title="Personal website" subtitle="Software used beyond HTML/CSS/JavaScript: React, Material-UI, History, react-back2top." expandable={true} />
         <CardText expandable={true}>
           <a href="https://github.com/gnkatchmar/new-gkatchmar" target="_blank">Project Link</a>
         </CardText>

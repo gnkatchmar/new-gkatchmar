@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Restaurants = () => (
   <div>
@@ -20,7 +20,7 @@ const Restaurants = () => (
 
     <h3>Breakfast/Brunch (in order)</h3>
 
-      <p><del>Simpatica&nbsp;(thrice)*</del>, Screen Door, Country Cat&nbsp;(four times), Beach Dog Cafe&nbsp;(Lincoln City), Pepper Box&nbsp;(twice), Pine State Biscuits&nbsp;(six times), Petite Provence&nbsp;(thrice), Muscadine, Redwood&nbsp;(twice), Zell’s&nbsp;(thrice), St. Honoré Bakery, Midpoint Café&nbsp;(twice), Doug Fir&nbsp;(seven times), Jam&nbsp;(five times), Block House Cafe (Dayton), Ya Hala (thrice), Cheryl's on 12th, Cadillac Café&nbsp;(nine times), The Waffle Window&nbsp;(thrice), Off the Waffle, Utopia Café&nbsp;(thrice), <del>Kerns Kitchen&nbsp;(twice)</del>, Bridges Café&nbsp;(twice), <del>Blue Pig Café</del>, Sanborn's, Hazel Room&nbsp;(twice), Chez Machin&nbsp;(twice), Swift Lounge&nbsp;(no longer serve brunch), City State Diner, Slappy Cakes&nbsp;(thrice), Sckavone’s, Tabor Bread, New Deal Cafe, Brick and Mortar&nbsp;(Albany), Tom's Restaurant (twice), Cup and Saucer (twice), Bottle +&nbsp;Kitchen&nbsp;(thrice), Le Bistro Montage&nbsp;(twice), Firehouse Grill&nbsp;(Seaside), Cameo Café, Junior's Cafe, Milo's City Cafe (twice), Cricket Café&nbsp;(twice), EastBurn, Holman's, Hawthorne Hophouse</p>
+      <p><del>Simpatica&nbsp;(thrice)*</del>, Screen Door, Country Cat&nbsp;(four times), Beach Dog Cafe&nbsp;(Lincoln City), Pepper Box&nbsp;(twice), Pine State Biscuits&nbsp;(six times), Petite Provence&nbsp;(thrice), Muscadine, Redwood&nbsp;(twice), Zell’s&nbsp;(thrice), St. Honoré Bakery, Midpoint Café&nbsp;(twice), Doug Fir&nbsp;(seven times), Jam&nbsp;(five times), Block House Cafe (Dayton), Ya Hala (thrice), Cheryl's on 12th, Cadillac Café&nbsp;(nine times), The Waffle Window&nbsp;(thrice), Off the Waffle, Utopia Café&nbsp;(thrice), <del>Kerns Kitchen&nbsp;(twice)</del>, Bridges Café&nbsp;(twice), <del>Blue Pig Café</del>, Sanborn's, Hazel Room&nbsp;(twice), Chez Machin&nbsp;(twice), Swift Lounge&nbsp;(no longer serve brunch), City State Diner, Slappy Cakes&nbsp;(thrice), Sckavone’s (twice), Tabor Bread, New Deal Cafe, Brick and Mortar&nbsp;(Albany), Tom's Restaurant (twice), Cup and Saucer (twice), Bottle +&nbsp;Kitchen&nbsp;(thrice), Le Bistro Montage&nbsp;(twice), Firehouse Grill&nbsp;(Seaside), Cameo Café, Junior's Cafe, Milo's City Cafe (twice), Cricket Café&nbsp;(twice), EastBurn, Holman's, Hawthorne Hophouse</p>
 
     <h3>Favorite Food Carts&nbsp;(alpha order, based on multiple visits)</h3>
 

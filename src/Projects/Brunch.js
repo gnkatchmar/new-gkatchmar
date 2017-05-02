@@ -1,5 +1,5 @@
-import React from 'react';
-import {Card, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import React from "react";
+import {Card, CardHeader, CardMedia, CardTitle, CardText} from "material-ui/Card";
 
 export default class Brunch extends React.Component {
 
@@ -28,14 +28,14 @@ export default class Brunch extends React.Component {
         <CardHeader
           title="Portland Weekend Brunch Finder"
           subtitle="August 2016"
-          avatar={require('./images/201FinalAvatar.jpg')}  
+          avatar={require("./images/201FinalAvatar.jpg")}  
           actAsExpander={true}
           showExpandableButton={true}
         />
         <CardMedia
           expandable={true}
         >
-           <img src={require('./images/201Final.jpg')} alt=''/>
+           <img src={require("./images/201Final.jpg")} alt=""/>
         </CardMedia>
         <CardTitle title="Code Fellows 201 final project using geolocation, Google Places and Maps APIs to create a brunch finding app." subtitle="Software used beyond HTML/CSS/JavaScript: none." expandable={true} />
         <CardText expandable={true}>

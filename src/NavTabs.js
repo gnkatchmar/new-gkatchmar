@@ -13,7 +13,6 @@ function handleActive(tab) {
   history.replace(tab.props["data-route"]);
 }
 
-// Enable Back with history.push; doesn't work for Forward as both use Pop
 // window.onpopstate = function(event) {
 //     window.location.reload();
 // };
