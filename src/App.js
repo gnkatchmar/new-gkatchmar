@@ -11,7 +11,7 @@ const App = () => (
     <div>
       <NavTabs />
       <Back2Top>
-      <FloatingActionButton alwaysVisible="True">
+      <FloatingActionButton>
           <UpIcon/>
       </FloatingActionButton>
     </Back2Top>
