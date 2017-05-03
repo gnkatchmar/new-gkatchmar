@@ -49,15 +49,6 @@ export default class NavTabs extends React.Component {
         </div>
         </Tab>
         <Tab
-            label="Cocktail Guides"
-            data-route="/cocktails"
-            onActive={handleActive}
-          >
-        <div>
-          <Cocktail />
-        </div>
-        </Tab>
-        <Tab
           label="Restaurant Ratings"
           data-route="/restaurants"
           onActive={handleActive}
@@ -66,7 +57,16 @@ export default class NavTabs extends React.Component {
           <Restaurants />
         </div>
         </Tab>
-    </Tabs>           
+        <Tab
+            label="Cocktail Guides"
+            data-route="/cocktails"
+            onActive={handleActive}
+          >
+        <div>
+          <Cocktail />
+        </div>
+        </Tab>
+      </Tabs>           
     )
   }
 }
