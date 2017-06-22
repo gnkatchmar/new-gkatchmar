@@ -24,7 +24,7 @@ const Restaurants = () => (
 
     <h3>Favorite Food Carts&nbsp;(alpha order, based on multiple visits)</h3>
 
-      <p>Azul Tequila Mexican Taqueria, <del>Blues City Biscuits</del>, Brazilian House, Brunchbox (now brick &&nbsp;mortar), Burger Guild, Eurodish, Fuego, Guero (now brick &&nbsp;mortar), Hapa PDX, <del>Italian Market</del>, Kim Jong Grillin', La Morenita, New Taste of India, Number One Bento/Taste of Korea&nbsp;(sister carts), People’s Pig (now brick &&nbsp;mortar), Poblano Pepper, Saigon Kitchen, Taste of Poland, Tito’s Burritos, Viking Soul Food</p>
+      <p>Azul Tequila Mexican Taqueria, <del>Blues City Biscuits</del>, Brazilian House, Brunchbox (now brick &&nbsp;mortar), Burger Guild, El Capullo Taco Trailer (Gresham), Eurodish, Fuego, Guero (now brick &&nbsp;mortar), Hapa PDX, <del>Italian Market</del>, Kim Jong Grillin', La Morenita, New Taste of India, Number One Bento/Taste of Korea&nbsp;(sister carts), People’s Pig (now brick &&nbsp;mortar), Poblano Pepper, Saigon Kitchen, Taste of Poland, Tito’s Burritos, Viking Soul Food</p>
 
     <h3>Misc.</h3>
 
