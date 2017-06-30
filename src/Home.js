@@ -10,7 +10,7 @@ const styles = {
 const Home = () => (
   <div className="buttons">
       <h1>Gregory N. Katchmar</h1>
-          <h2>Full-stack JavaScript Developer</h2>
+          <h2>JavaScript Developer</h2>
           <h3>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, Webpack, RESTful web services, testing&nbsp;(Mocha,&nbsp;Chai, Karma, Protractor,&nbsp;Jest)</h3>
           <hr></hr>
           <h4>More information at:</h4>
