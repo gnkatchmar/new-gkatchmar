@@ -31,6 +31,8 @@ const Home = () => (
     <hr></hr>
     <h4>Contact me at:</h4>
     <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
+    <hr></hr>
+    <p>Last updated July 7, 2017</p>
   </div>
 );
 
