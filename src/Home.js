@@ -28,11 +28,18 @@ const Home = () => (
       primary={true}
       style={styles.button}
     />
+    <RaisedButton
+      href="https://drive.google.com/open?id=0B-QmArVwrgLGSHJnbFN6VXZGb0k"
+      target="_blank"
+      label="Resume (PDF)"
+      primary={true}
+      style={styles.button}
+    />
     <hr></hr>
     <h4>Contact me at:</h4>
     <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
     <hr></hr>
-    <p>Last updated July 26, 2017</p>
+    <p>Last updated July 27, 2017</p>
   </div>
 );
 
