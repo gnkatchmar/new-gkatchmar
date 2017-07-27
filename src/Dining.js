@@ -1,4 +1,5 @@
 import React from "react";
+import RaisedButton from "material-ui/RaisedButton";
 
 const divStyle = {
   margin: "0px",
@@ -7,8 +8,16 @@ const divStyle = {
 };
 
 function Dining() {
-  return <div style={divStyle}>
-   <iframe src="https://docs.google.com/spreadsheets/d/1gluqG11olGteKHxJB-jBl9xP5VO9jWHD2GY1r95v0nI/pubhtml?widget=true&amp;headers=false"></iframe>
+    return <div style={divStyle}>
+    <hr></hr>
+    <RaisedButton
+        href="https://gnkatchmar.github.io/Code201Final/"
+        target="_blank"
+        label="Portland Weekend Brunch Finder App"
+        primary={true}
+      />
+    <hr></hr>
+    <iframe src="https://docs.google.com/spreadsheets/d/1gluqG11olGteKHxJB-jBl9xP5VO9jWHD2GY1r95v0nI/pubhtml?widget=true&amp;headers=false"></iframe>
   </div>;
 }
 
