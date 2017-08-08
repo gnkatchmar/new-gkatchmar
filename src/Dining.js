@@ -11,7 +11,7 @@ function Dining() {
     return <div style={divStyle}>
     <hr></hr>
     <RaisedButton
-        href="https://gnkatchmar.github.io/Code201Final/"
+        href="https://gnkatchmar.github.io/brunch-finder/"
         target="_blank"
         label="Portland Weekend Brunch Finder App"
         primary={true}

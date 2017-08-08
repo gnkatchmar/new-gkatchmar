@@ -11,8 +11,7 @@ const Home = () => (
   <div className="buttons">
       <h1>Gregory N. Katchmar</h1>
           <h2>JavaScript Developer</h2>
-          <h3>HTML, CSS, JavaScript, Node.js, React.js, Angular.js 1.5, MongoDB, Express.js, SQL, Webpack, RESTful web services, testing&nbsp;(Mocha,&nbsp;Chai, Karma, Protractor,&nbsp;Jest)</h3>
-          <hr></hr>
+           <hr></hr>
           <h4>More information at:</h4>
     <RaisedButton
       href="https://www.linkedin.com/in/gregory-katchmar-3a48275a"
@@ -39,7 +38,9 @@ const Home = () => (
     <h4>Contact me at:</h4>
     <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
     <hr></hr>
-    <p>Last updated July 27, 2017</p>
+    <p>Last updated August 8, 2017</p>
+    <hr></hr>
+    <p>A React/material-ui site</p>
   </div>
 );
 
