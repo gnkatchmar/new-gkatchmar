@@ -38,7 +38,7 @@ const Home = () => (
     <h4>Contact me at:</h4>
     <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
     <hr></hr>
-    <p>Last updated August 16, 2017</p>
+    <p>Last updated August 26, 2017</p>
     <hr></hr>
     <p>A React/material-ui site</p>
   </div>
