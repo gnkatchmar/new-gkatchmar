@@ -13,11 +13,12 @@ function Dining() {
     <RaisedButton
         href="https://gnkatchmar.github.io/brunch-finder/"
         target="_blank"
+        rel="noopener noreferrer"
         label="Portland Weekend Brunch Finder App"
         primary={true}
       />
     <hr></hr>
-    <iframe src="https://docs.google.com/spreadsheets/d/1gluqG11olGteKHxJB-jBl9xP5VO9jWHD2GY1r95v0nI/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/1gluqG11olGteKHxJB-jBl9xP5VO9jWHD2GY1r95v0nI/pubhtml?widget=true&amp;headers=false" title="dining"></iframe>
   </div>;
 }
 

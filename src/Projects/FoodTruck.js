@@ -39,7 +39,7 @@ export default class FoodTruck extends React.Component {
         </CardMedia>
         <CardTitle title="Code Fellows 301 final team project using Yelp API, geolocation, and MVC design to create a mobile-first, responsive app that streamlines the food truck finding process (incomplete)." subtitle="HTML/CSS/JavaScript + Express, Skeleton.css, Handlebars, jQuery." expandable={true} />
         <CardText expandable={true}>
-          <a href="https://github.com/foodtruck-finder/app" target="_blank">Project Link</a>
+          <a href="https://github.com/foodtruck-finder/app" target="_blank" rel="noopener noreferrer">Project Link</a>
         </CardText>
       </Card>
     );

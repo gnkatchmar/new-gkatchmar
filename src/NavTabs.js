@@ -1,46 +1,53 @@
 import React from "react";
-import { Tabs, Tab } from "material-ui-scrollable-tabs/Tabs";
+import {Tabs, Tab} from 'material-ui';
+import { withRouter } from "react-router-dom";
+
 import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
 
-export default class NavTabs extends React.Component {
+class NavTabs extends React.Component {
+
+ handleCallToRouter = (value) => {
+   this.props.history.push(value);
+ }
+
   render () {
-    return (
-      <Tabs tabType="scrollable-buttons">
+    debugger;
+     return (
+      <Tabs
+        value={this.props.history.location.pathname}
+        onChange={this.handleCallToRouter}
+        >
         <Tab
           label="Home"
-          data-route="/"
-          onActive={handleActive}
+          value="/"
         >
         <div>
            <Home />
         </div>
         </Tab>
         <Tab
-            label="Portfolio"
-            data-route="/portfolio"
-            onActive={handleActive}
-          >
+          label="Portfolio"
+          value="/portfolio"
+            >
           <div>
             <Portfolio />
           </div>
         </Tab>
         <Tab
-            label="Dining Guide"
-            data-route="/dining"
-            onActive={handleActive}
-        >
+          label="Dining Guide"
+          value="/dining"
+          >
         <div>
           <Dining />
         </div>
         </Tab>
         <Tab
           label="Restaurant Ratings"
-          data-route="/restaurants"
-          onActive={handleActive}
+          value="/restaurants"
         >
         <div>
           <Restaurants />
@@ -48,9 +55,8 @@ export default class NavTabs extends React.Component {
         </Tab>
         <Tab
             label="Cocktail Guides"
-            data-route="/cocktails"
-            onActive={handleActive}
-          >
+            value="/cocktails"
+            >
         <div>
           <Cocktail />
         </div>
@@ -59,3 +65,5 @@ export default class NavTabs extends React.Component {
     )
   }
 }
+
+export default withRouter(NavTabs)

@@ -39,7 +39,7 @@ export default class Brunch extends React.Component {
         </CardMedia>
         <CardTitle title="Code Fellows 201 final team project using geolocation, Google Places and Maps APIs to create a brunch finding app." subtitle="HTML/CSS/JavaScript" expandable={true} />
         <CardText expandable={true}>
-          <a href="https://github.com/gnkatchmar/Code201Final" target="_blank">Project Link</a>
+          <a href="https://github.com/gnkatchmar/Code201Final" target="_blank" rel="noopener noreferrer">Project Link</a>
         </CardText>
       </Card>
     );

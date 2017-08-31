@@ -38,7 +38,7 @@ export default class GKatchmar extends React.Component {
         />
         <CardTitle title="Personal website" subtitle="HTML/CSS/JavaScript + React, Material-UI, History, React-Scroll-Up." expandable={true} />
         <CardText expandable={true}>
-          <a href="https://github.com/gnkatchmar/new-gkatchmar" target="_blank">Project Link</a>
+          <a href="https://github.com/gnkatchmar/new-gkatchmar" target="_blank" rel="noopener noreferrer">Project Link</a>
         </CardText>
       </Card>
     );
