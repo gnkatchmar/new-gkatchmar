@@ -1,21 +1,10 @@
 import React from "react";
-import createHistory from "history/createBrowserHistory";
 import { Tabs, Tab } from "material-ui-scrollable-tabs/Tabs";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
-
-const history = createHistory();
-
-function handleActive(tab) {
-  history.replace(tab.props["data-route"]);
-}
-
-// window.onpopstate = function(event) {
-//     window.location.reload();
-// };
 
 export default class NavTabs extends React.Component {
   render () {
