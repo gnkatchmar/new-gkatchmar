@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import {Tabs, Tab} from 'material-ui';
 import { withRouter } from "react-router-dom";
 
@@ -8,14 +8,13 @@ import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
 
-class NavTabs extends React.Component {
+class NavTabs extends Component {
 
  handleCallToRouter = (value) => {
    this.props.history.push(value);
  }
 
   render () {
-    debugger;
      return (
       <Tabs
         value={this.props.history.location.pathname}
