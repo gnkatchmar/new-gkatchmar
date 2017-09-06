@@ -6,9 +6,10 @@ import injectTapEventPlugin from "react-tap-event-plugin";
 injectTapEventPlugin();
 
 var cardData = [{
+  "key": 1,
 	"headerTitle": "gkatchmar.com",
 	"headerSubtitle": "May 2017",
-	"headerAvatar": "./images/GK.png",
+	"headerAvatar": require("./avatars/GK.png"),
 	"titleTitle": "Personal website",
 	"titleSubtitle": "HTML/CSS/JavaScript + React, Material-UI, React-Router, React-Scroll-Up.",
 	"textHref": "https://github.com/gnkatchmar/new-gkatchmar"
@@ -35,36 +36,31 @@ export default class Portfolio extends Component {
     this.setState({expanded: false});
   };
   
-      render(){
-          // pass in your data through props
-        //   const cardData = this.props
-  
-          let cardList = []
-          Object.keys(cardData).forEach((cardIndex) => {
-              let card = cardData[cardIndex]
-              cardList.push (
-                <Card expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
-                      <CardHeader
-                          title={card.headerTitle}
-                          subtitle={card.headerSubtitle}
-                          avatar={require(card.headerAvatar)}
-                          actAsExpander={true}
-                          showExpandableButton={true}
-                      />
-                      <CardTitle title={card.titleTitle} subtitle={card.titleSubtitle} expandable={true} />
-                      <CardText expandable={true}>
-                      <a href={card.textHref} target="_blank" rel="noopener noreferrer">Project Link</a>
-                    </CardText>
-                  </Card>            
-              )
-          })
-  
-          return (
-                <div>
-                      <div className='card-list'>
-                          { cardList }
-                      </div>
-                  </div>
-          );
-      }
+  render(){
+    let cardList = []
+    Object.keys(cardData).forEach((cardIndex) => {
+      let card = cardData[cardIndex]
+      cardList.push (
+        <Card key={card.key} expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
+          <CardHeader
+            title={card.headerTitle}
+            subtitle={card.headerSubtitle}
+            avatar={card.headerAvatar}
+            actAsExpander={true}
+            showExpandableButton={true}
+          />
+          <CardTitle title={card.titleTitle} subtitle={card.titleSubtitle} expandable={true} />
+          <CardText expandable={true}>
+            <a href={card.textHref} target="_blank" rel="noopener noreferrer">Project Link</a>
+          </CardText>
+        </Card>            
+      )
+    })
+
+    return (
+      <div className='card-list'>
+        { cardList }
+      </div>
+    );
   }
+}
