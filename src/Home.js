@@ -7,20 +7,20 @@ const styles = {
   },
 }
 
-var buttonData = [
+const buttonData = [
   {"hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
   {"hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
   {"hrefs":"https://drive.google.com/open?id=0B-QmArVwrgLGSHJnbFN6VXZGb0k", "labels": "Resume (PDF)"},
 ];
 
 const buttons = buttonData.map((buttonData) =>
-<RaisedButton
-href={buttonData.hrefs}
-target="_blank"
-label={buttonData.labels}
-primary={true}
-style={styles.button}
-/>
+  <RaisedButton
+  href={buttonData.hrefs}
+  target="_blank"
+  label={buttonData.labels}
+  primary={true}
+  style={styles.button}
+  />
 );
 
 class Home extends Component {
