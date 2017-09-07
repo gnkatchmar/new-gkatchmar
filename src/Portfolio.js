@@ -64,25 +64,6 @@ injectTapEventPlugin();
 
 export default class Portfolio extends Component {
 
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     expanded: false,
-  //   };
-  // }
-
-  // handleExpandChange = (expanded) => {
-  //   this.setState({expanded: expanded});
-  // };
-
-  // handleExpand = () => {
-  //   this.setState({expanded: true});
-  // };
-
-  // handleReduce = () => {
-  //   this.setState({expanded: false});
-  // };
-  
   render(){
     let cardList = []
     Object.keys(cardData).forEach((cardIndex) => {
