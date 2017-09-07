@@ -10,7 +10,7 @@ const cardData = [{
   "expandable": false,
   "media": "",
 	"titleTitle": "Personal website",
-	"titleSubtitle": "HTML/CSS/JavaScript + React, Material-UI, React-Router, React-Scroll-Up.",
+	"titleSubtitle": "HTML/CSS/JavaScript + React, Material-UI, History, React-Scroll-Up.",
 	"textHref": "https://github.com/gnkatchmar/new-gkatchmar"
 },
 {
