@@ -128,11 +128,11 @@ class NavTabs extends React.Component {
             <Tab label="Cocktail Guides" />
           </Tabs>
         </AppBar>
-        {value === 0 && <TabContainer>{Home}</TabContainer>}
-        {value === 1 && <TabContainer>{Portfolio}</TabContainer>}
-        {value === 2 && <TabContainer>{Dining}</TabContainer>}
-        {value === 3 && <TabContainer>{Restaurants}</TabContainer>}
-        {value === 4 && <TabContainer>{Cocktail}</TabContainer>}
+        {value === 0 && <TabContainer>{<Home />}</TabContainer>}
+        {value === 1 && <TabContainer>{<Portfolio />}</TabContainer>}
+        {value === 2 && <TabContainer>{<Dining />}</TabContainer>}
+        {value === 3 && <TabContainer>{<Restaurants />}</TabContainer>}
+        {value === 4 && <TabContainer>{<Cocktail />}</TabContainer>}
       </div>
     );
   }

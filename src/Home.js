@@ -54,6 +54,7 @@ import Button from 'material-ui/Button';
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
+    padding: '5px',
   },
   input: {
     display: 'none',
@@ -67,12 +68,13 @@ const buttonData = [
 ];
 
 const buttons = buttonData.map((buttonData) =>
-  <Button raised key={buttonData.key}
+  <Button 
+  raised key={buttonData.key}
   href={buttonData.hrefs}
   target="_blank"
-  label={buttonData.labels}
-  primary={true}
+  color="primary"
   style={styles.button}
+  children={buttonData.labels}
   />
 );
 
