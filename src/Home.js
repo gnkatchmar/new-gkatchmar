@@ -36,7 +36,7 @@ class Home extends Component {
         <h4>Contact me at:</h4>
         <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
         <hr></hr>
-        <p>Last updated September 6, 2017</p>
+        <p>Last updated October 4, 2017</p>
         <hr></hr>
         <p>A React/material-ui site</p>
       </div>

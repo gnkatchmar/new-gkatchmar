@@ -4,6 +4,17 @@ import injectTapEventPlugin from "react-tap-event-plugin";
 
 const cardData = [{
   "key": 1,
+	"headerTitle": "Portland Weekend Brunch Finder 2.0",
+	"headerSubtitle": "September 2017",
+  "headerAvatar": require("./avatars/201FinalAvatar.jpg"),
+  "expandable": true,
+  "media": require("./avatars/Brunch.jpg"),
+	"titleTitle": 'Streamlined, mobile-responsive version of Code Fellows 201 Final Project. 200+ restaurants from all five "Portland Quadrants."',
+	"titleSubtitle": "HTML/CSS/JavaScript.",
+	"textHref": "https://github.com/gnkatchmar/brunch-finder"
+},
+{
+  "key": 2,
 	"headerTitle": "gkatchmar.com",
 	"headerSubtitle": "May 2017",
   "headerAvatar": require("./avatars/GK.png"),
@@ -14,7 +25,7 @@ const cardData = [{
 	"textHref": "https://github.com/gnkatchmar/new-gkatchmar"
 },
 {
-  "key": 2,
+  "key": 3,
 	"headerTitle": "The BigToDo",
 	"headerSubtitle": "January 2017",
   "headerAvatar": require("./avatars/401FinalAvatar.jpg"),
@@ -25,7 +36,7 @@ const cardData = [{
 	"textHref": "https://github.com/401-Final"
 },
 {
-  "key": 3,
+  "key": 4,
 	"headerTitle": "Spotify Fan Club",
 	"headerSubtitle": "November 2016",
   "headerAvatar": require("./avatars/401MidTermAvatar.jpg"),
@@ -36,7 +47,7 @@ const cardData = [{
 	"textHref": "https://github.com/pdx-fanclub/fanclub-app"
 },
 {
-  "key": 4,
+  "key": 5,
 	"headerTitle": "Food Truck Finder",
 	"headerSubtitle": "October 2016",
   "headerAvatar": require("./avatars/301FinalAvatar.jpg"),
@@ -47,7 +58,7 @@ const cardData = [{
 	"textHref": "https://github.com/foodtruck-finder/app"
 },
 {
-  "key": 5,
+  "key": 6,
 	"headerTitle": "Portland Weekend Brunch Finder",
 	"headerSubtitle": "August 2016",
   "headerAvatar": require("./avatars/201FinalAvatar.jpg"),
