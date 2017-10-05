@@ -54,7 +54,6 @@ import Button from 'material-ui/Button';
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
-    padding: '5px',
   },
   input: {
     display: 'none',

@@ -72,7 +72,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Tabs, { Tab } from 'material-ui/Tabs';
-// import { withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Dining from "./Dining";
@@ -142,4 +142,4 @@ NavTabs.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(NavTabs);
+export default withRouter(withStyles(styles)(NavTabs));
