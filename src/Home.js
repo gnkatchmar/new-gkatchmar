@@ -14,6 +14,7 @@ const buttonData = [
 ];
 
 const buttons = buttonData.map((buttonData) =>
+<span>
   <Button 
     raised
     key={buttonData.key}
@@ -23,6 +24,8 @@ const buttons = buttonData.map((buttonData) =>
     style={styles.button}
     children={buttonData.labels}
   />
+  &nbsp;
+  </span>
 );
 
 class Home extends Component {
