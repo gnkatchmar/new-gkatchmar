@@ -2,8 +2,8 @@ Personal Website
 
 by Greg Katchmar
 
-1.0.0  2017-05-02
+2.0.0  2017-10-10
 
-Dependencies: react, react-dom, react-tap-event-plugin, prop-types, material-ui, material-ui-scrollable-tabs, history, react-back2top
+Dependencies: material-ui, material-ui-icons, prop-types, react, react-dom, react-router-dom, react-scroll-up.
 
-This project is licensed under the ISC License - see the LICENSE.md file for details
+This project is licensed under the ISC License - see the LICENSE.md file for details.
