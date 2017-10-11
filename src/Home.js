@@ -10,7 +10,7 @@ const styles = theme => ({
 const buttonData = [
   {"key": 1, "hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
   {"key": 2, "hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
-  {"key": 3, "hrefs":"https://drive.google.com/open?id=0B-QmArVwrgLGSHJnbFN6VXZGb0k", "labels": "Resume (PDF)"},
+  {"key": 3, "hrefs":"https://drive.google.com/open?id=0B-QmArVwrgLGRmFwUGxnU2p3R1k", "labels": "Resume (PDF)"},
 ];
 
 const buttons = buttonData.map((buttonData) =>
@@ -41,9 +41,9 @@ class Home extends Component {
         <h4>Contact me at:</h4>
         <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
         <hr></hr>
-        <p>Last updated October 10, 2017</p>
+        <p>Last updated October 11, 2017</p>
         <hr></hr>
-        <p>A React/material-ui site</p>
+        <p>A React/Material-UI site</p>
         </div>
     );
   }

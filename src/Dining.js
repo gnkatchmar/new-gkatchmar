@@ -16,7 +16,7 @@ class Dining extends Component {
             href="https://gnkatchmar.github.io/brunch-finder/"
             target="_blank"
             rel="noopener noreferrer"
-            children="Portland Weekend Brunch Finder App"
+            children="Launch Portland Weekend Brunch Finder 2.0"
           />
         <hr></hr>
         <iframe src="https://docs.google.com/spreadsheets/d/1gluqG11olGteKHxJB-jBl9xP5VO9jWHD2GY1r95v0nI/pubhtml?widget=true&amp;headers=false" title="dining"></iframe>
