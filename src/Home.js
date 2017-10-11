@@ -4,7 +4,7 @@ import { withStyles } from 'material-ui/styles';
 import Button from 'material-ui/Button';
 
 const styles = theme => ({
-
+  margin: theme.spacing.unit,
 });
 
 const buttonData = [
@@ -15,7 +15,8 @@ const buttonData = [
 
 const buttons = buttonData.map((buttonData) =>
   <Button 
-    raised key={buttonData.key}
+    raised
+    key={buttonData.key}
     href={buttonData.hrefs}
     target="_blank"
     color="primary"
@@ -28,10 +29,10 @@ class Home extends Component {
   render() {
     return (
       <div className="buttons">
-          <h1>Gregory N. Katchmar</h1>
-              <h2>JavaScript Developer</h2>
-              <hr></hr>
-              <h4>More information at:</h4>
+        <h1>Gregory N. Katchmar</h1>
+        <h2>JavaScript Developer</h2>
+        <hr></hr>
+        <h4>More information at:</h4>
         {buttons}
         <hr></hr>
         <h4>Contact me at:</h4>
@@ -40,7 +41,7 @@ class Home extends Component {
         <p>Last updated October 10, 2017</p>
         <hr></hr>
         <p>A React/material-ui site</p>
-      </div>
+        </div>
     );
   }
 }
