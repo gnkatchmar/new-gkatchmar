@@ -1,72 +1,80 @@
-import React from "react";
-import createHistory from "history/createBrowserHistory";
-import { Tabs, Tab } from "material-ui-scrollable-tabs/Tabs";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
+import AppBar from 'material-ui/AppBar';
+import Tabs, { Tab } from 'material-ui/Tabs';
+import { withRouter } from "react-router-dom";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
 
-const history = createHistory();
-
-function handleActive(tab) {
-  history.replace(tab.props["data-route"]);
+function TabContainer(props) {
+  return <div style={{ padding: 20 }}>{props.children}</div>;
 }
 
-// window.onpopstate = function(event) {
-//     window.location.reload();
-// };
+const styles = theme => ({
+  root: {
+    flexGrow: 1,
+    width: '100%',
+    marginTop: theme.spacing.unit * 3,
+    backgroundColor: theme.palette.background.paper,
+  },
+});
 
-export default class NavTabs extends React.Component {
-  render () {
-    return (
-      <Tabs tabType="scrollable-buttons">
-        <Tab
-          label="Home"
-          data-route="/"
-          onActive={handleActive}
-        >
-        <div>
-           <Home />
-        </div>
-        </Tab>
-        <Tab
-            label="Portfolio"
-            data-route="/portfolio"
-            onActive={handleActive}
-          >
-          <div>
-            <Portfolio />
-          </div>
-        </Tab>
-        <Tab
-            label="Dining Guide"
-            data-route="/dining"
-            onActive={handleActive}
-        >
-        <div>
-          <Dining />
-        </div>
-        </Tab>
-        <Tab
-          label="Restaurant Ratings"
-          data-route="/restaurants"
-          onActive={handleActive}
-        >
-        <div>
-          <Restaurants />
-        </div>
-        </Tab>
-        <Tab
-            label="Cocktail Guides"
-            data-route="/cocktails"
-            onActive={handleActive}
-          >
-        <div>
-          <Cocktail />
-        </div>
-        </Tab>
-      </Tabs>           
-    )
+class NavTabs extends React.Component {
+  state = {
+    value: "/",
+  };
+
+  componentDidMount() {
+    window.onpopstate = ()=> {
+      this.setState({
+        value: this.props.history.location.pathname
+      });
   }
 }
+
+  handleChange = (event, value) => {
+    this.setState({ value });
+    this.props.history.push(value);
+  };
+  
+  render() {
+    const { classes } = this.props;
+    const { value } = this.state;
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static" color="default">
+          <Tabs
+            value={value}
+            onChange={this.handleChange}
+            scrollable
+            scrollButtons="on"
+            indicatorColor="primary"
+            textColor="primary"
+          >
+            <Tab label="Home" value = "/" />
+            <Tab label="Portfolio" value = "/portfolio"/>
+            <Tab label="Dining Guide" value = "/dining"/>
+            <Tab label="Restaurant Ratings" value = "/restaurants"/>
+            <Tab label="Cocktail Guides" value = "/cocktails"/>
+          </Tabs>
+        </AppBar>
+        {value === "/" && <TabContainer>{<Home />}</TabContainer>}
+        {value === "/portfolio" && <TabContainer>{<Portfolio />}</TabContainer>}
+        {value === "/dining" && <TabContainer>{<Dining />}</TabContainer>}
+        {value === "/restaurants" && <TabContainer>{<Restaurants />}</TabContainer>}
+        {value === "/cocktails" && <TabContainer>{<Cocktail />}</TabContainer>}
+      </div>
+    );
+  }
+}
+
+NavTabs.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withRouter(withStyles(styles)(NavTabs));

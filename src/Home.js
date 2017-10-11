@@ -1,47 +1,53 @@
-import React from "react";
-import RaisedButton from "material-ui/RaisedButton";
+import React, {Component} from "react";
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
+import Button from 'material-ui/Button';
 
-const styles = {
-  button: {
-    margin: 12,
-  },
-};
+const styles = theme => ({
+  margin: theme.spacing.unit,
+});
 
-const Home = () => (
-  <div className="buttons">
-      <h1>Gregory N. Katchmar</h1>
-          <h2>JavaScript Developer</h2>
-           <hr></hr>
-          <h4>More information at:</h4>
-    <RaisedButton
-      href="https://www.linkedin.com/in/gregory-katchmar-3a48275a"
-      target="_blank"
-      label="LinkedIn"
-      primary={true}
-      style={styles.button}
-    />
-    <RaisedButton
-      href="https://github.com/gnkatchmar"
-      target="_blank"
-      label="Github"
-      primary={true}
-      style={styles.button}
-    />
-    <RaisedButton
-      href="https://drive.google.com/open?id=0B-QmArVwrgLGSHJnbFN6VXZGb0k"
-      target="_blank"
-      label="Resume (PDF)"
-      primary={true}
-      style={styles.button}
-    />
-    <hr></hr>
-    <h4>Contact me at:</h4>
-    <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
-    <hr></hr>
-    <p>Last updated August 26, 2017</p>
-    <hr></hr>
-    <p>A React/material-ui site</p>
-  </div>
+const buttonData = [
+  {"key": 1, "hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
+  {"key": 2, "hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
+  {"key": 3, "hrefs":"https://drive.google.com/open?id=0B-QmArVwrgLGSHJnbFN6VXZGb0k", "labels": "Resume (PDF)"},
+];
+
+const buttons = buttonData.map((buttonData) =>
+  <Button 
+    raised
+    key={buttonData.key}
+    href={buttonData.hrefs}
+    target="_blank"
+    color="primary"
+    style={styles.button}
+    children={buttonData.labels}
+  />
 );
 
-export default Home;
+class Home extends Component {
+  render() {
+    return (
+      <div className="buttons">
+        <h1>Gregory N. Katchmar</h1>
+        <h2>JavaScript Developer</h2>
+        <hr></hr>
+        <h4>More information at:</h4>
+        {buttons}
+        <hr></hr>
+        <h4>Contact me at:</h4>
+        <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
+        <hr></hr>
+        <p>Last updated October 10, 2017</p>
+        <hr></hr>
+        <p>A React/material-ui site</p>
+        </div>
+    );
+  }
+}
+
+Home.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Home);
