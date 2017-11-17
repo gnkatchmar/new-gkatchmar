@@ -38,10 +38,18 @@ class Home extends Component {
         <h4>More information at:</h4>
         {buttons}
         <hr></hr>
+        <Button raised 
+        color="primary"
+        href="https://gnkatchmar.github.io/brunch-finder/"
+        target="_blank"
+        rel="noopener noreferrer"
+        children="Launch Portland Weekend Brunch Finder 2.0"
+      />
+    <hr></hr>
         <h4>Contact me at:</h4>
         <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
         <hr></hr>
-        <p>Last updated November 7, 2017</p>
+        <p>Last updated November 17, 2017</p>
         <hr></hr>
         <p>A React/Material-UI site</p>
         </div>
