@@ -83,21 +83,14 @@ class Portfolio extends React.Component {
                 {card.mediaTitle}<br />
                 Uses HTML/CSS/JavaScript
                 {card.mediaSubheader}<br /><br />
-                {
-                  card.textHref
+                {card.textHref
                   ? <a href={card.textHref} target="_blank" rel="noopener noreferrer">Project Link</a>
-                  : (<div>Private Repository</div>)
-                }
+                  : (<div>Private Repository</div>)}
             </CardContent>
           </Card>
         </div>            
       )
     })
-
-
-
-
-
 
     return (
             <div className='card-list'>
