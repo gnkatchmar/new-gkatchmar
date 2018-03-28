@@ -10,7 +10,7 @@ const styles = theme => ({
 const buttonData = [
   {"key": 1, "hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
   {"key": 2, "hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
-  {"key": 3, "hrefs":"https://drive.google.com/open?id=0B-QmArVwrgLGRmFwUGxnU2p3R1k", "labels": "Resume (PDF)"},
+  {"key": 3, "hrefs":"https://drive.google.com/open?id=1CJxw4DKh_pf7Oi9t-StYHDTvVF6dT2_t", "labels": "Resume (PDF)"},
 ];
 
 const buttons = buttonData.map((buttonData) =>
@@ -51,7 +51,7 @@ class Home extends Component {
         <hr></hr>
         <p>A React/Material-UI site</p>
         <hr></hr>
-        <p>Last updated: March 16, 2018</p>
+        <p>Last updated: March 28, 2018</p>
         </div>
     );
   }
