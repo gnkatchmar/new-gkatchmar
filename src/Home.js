@@ -16,7 +16,7 @@ const buttonData = [
 const buttons = buttonData.map((buttonData) =>
 <span>
   <Button 
-    raised
+    variant="raised"
     key={buttonData.key}
     href={buttonData.hrefs}
     target="_blank"
@@ -38,7 +38,8 @@ class Home extends Component {
         <h4>More information at:</h4>
         {buttons}
         <hr></hr>
-        <Button raised 
+        <Button 
+        variant="raised" 
         color="primary"
         href="https://gnkatchmar.github.io/brunch-finder/"
         target="_blank"
