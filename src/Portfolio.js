@@ -7,9 +7,10 @@ const cardData = [
   {
     "key": 1,
     "headerTitle": "Jimmy Dorsey Real Estate Mobile App",
-    "headerSubheader": "ongoing since late November 2017",
+    "headerSubheader": "contributed November 2017-March 2018",
     "mediaTitle": "Part-time Alchemy App Lab team contract project to create mobile app adjunct for subscription-based real estate brokerage service.",
-    "mediaSubheader": " + MongoDB, Express, Node, React, React-Router, Redux, Firebase Authentication & Notification, Bulma, Cordova, RMLS, Stripe."
+    "mediaSubheader": " + MongoDB, Express, Node, React, React-Router, Redux, Firebase Authentication & Notification, Bulma, Cordova, RMLS, Stripe.",
+    "textHref": "https://jdre-app.herokuapp.com/onboarding"
   },
   {
     "key": 2,
@@ -23,7 +24,7 @@ const cardData = [
     "key": 3,
     "headerTitle": "Portland Weekend Brunch Finder 2.0",
     "headerSubheader": "September 2017",
-    "mediaTitle": 'Streamlined, mobile-responsive version of Code Fellows 201 Final Project with 200+ restaurants from all five "Portland Quadrants."',
+    "mediaTitle": 'Streamlined, mobile-responsive version of Code Fellows 201 Final Project with 200+ restaurants from all five "Portland Quadrants and points beyond."',
     "mediaSubheader": ".",
     "textHref": "https://github.com/gnkatchmar/brunch-finder"
   },
