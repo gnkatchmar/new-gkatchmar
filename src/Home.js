@@ -52,7 +52,7 @@ class Home extends Component {
         <hr></hr>
         <p>A React/Material-UI site</p>
         <hr></hr>
-        <p>Last updated: November 12, 2018</p>
+        <p>Last updated: November 29, 2018</p>
         </div>
     );
   }
