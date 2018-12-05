@@ -34,26 +34,24 @@ class Home extends Component {
       <div className="buttons">
         <h1>Gregory N. Katchmar</h1>
         <h2>JavaScript Developer</h2>
-        <hr></hr>
         <h4>More information at:</h4>
-        {buttons}
-        <hr></hr>
-        <Button 
-        variant="raised" 
-        color="primary"
-        href="https://gnkatchmar.github.io/brunch-finder/"
-        target="_blank"
-        rel="noopener noreferrer"
-        children="Launch Portland Weekend Brunch Finder 2.0"
-      />
-    <hr></hr>
-        <h4>Contact me at:</h4>
-        <a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
-        <hr></hr>
-        <p>A React/Material-UI site</p>
-        <hr></hr>
-        <p>Last updated: November 29, 2018</p>
-        </div>
+				{buttons}
+				<hr></hr>
+				<Button 
+					variant="raised" 
+					color="primary"
+					href="https://gnkatchmar.github.io/brunch-finder/"
+					target="_blank"
+					rel="noopener noreferrer"
+					children="Launch Portland Weekend Brunch Finder 2.0"
+				/>
+				<hr></hr>
+				<h4>Contact me at:</h4>
+				<a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
+				<hr></hr>
+				<p>A React/Material-UI site</p>
+				<p>Last updated: December 4, 2018</p>
+			</div>
     );
   }
 }
