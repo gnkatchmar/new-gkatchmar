@@ -50,7 +50,7 @@ class Home extends Component {
 				<a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
 				<hr></hr>
 				<p>A React/Material-UI site</p>
-				<p>Last updated: December 28, 2018</p>
+				<p>Last updated: January 28, 2019</p>
 			</div>
     );
   }
